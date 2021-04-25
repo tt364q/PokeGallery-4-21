@@ -18,7 +18,7 @@ A simple web app that displays pokemon data using the Pokemon API
 
 ## Getting Started
 
-[Click Here](#) to see the deployed app!
+[Click Here](https://tt364q.github.io/PokeGallery-4-21/) to see the deployed app!
 
 ## Future Enhancements
 
