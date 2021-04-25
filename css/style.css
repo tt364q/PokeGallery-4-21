@@ -1,0 +1,73 @@
+/*Googe Fonts Prest Start 2P */
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+:root {
+  --primary-brand-color: #4169e1;
+  --secondary-brand-color: gold;
+  --accent-color: #ddff00;
+  --shadow-gray-light: #d3d3d3;
+  --shadow-gray-dark: #9b9b9b;
+  --logo-font: "Press Start 2P", Helvetica;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: Helvetica;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header,
+footer {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  width: 100%;
+  height: 65px;
+  background: var(--primary-brand-color);
+}
+header {
+  padding-left: 10px;
+  font-family: var(--logo-font);
+  box-shadow: 1px 1px 12px 1px var(--shadow-gray-light);
+}
+header > h1 {
+  color: var(--accent-color);
+  text-shadow: 1px 1px 3px var(--secondary-brand-color);
+}
+footer {
+  justify-content: center;
+}
+main {
+  flex-grow: 1;
+}
+
+.card {
+  width: 300px;
+  height: 150px;
+  border-radius: 12px;
+  margin: 10px;
+  border: 1px solid var(--primary-brand-color);
+  box-shadow: 1px 1px 12px 1px var(--shadow-gray-light);
+  font-size: 30px;
+}
+.card:hover {
+  box-shadow: 1px 1px 15px 1px var(--shadow-gray-dark);
+}
+.outline {
+  border: 1px dotted var(--secondary-brand-color);
+}
+
+.flex-ctr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#collection {
+  flex-wrap: wrap;
+}
